@@ -1,0 +1,12 @@
+*.o
+
+# ignore kernel module build artifacts
+*.ko
+*.mod.o
+*.mod.c
+*.ko.cmd
+*.o.cmd
+Module.symvers
+modules.order
+.cache.mk
+.tmp_versions/

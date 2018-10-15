@@ -1,0 +1,4 @@
+#!/bin/sh
+set -ex
+sudo setcap cap_sys_admin,cap_sys_chroot+ep rex
+sudo setcap cap_sys_admin+ep rex-clean
