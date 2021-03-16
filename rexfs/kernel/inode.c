@@ -51,7 +51,6 @@ void fill_rexfs_path(struct dentry *dentry, char *buffer, unsigned size)
       BUG_ON(size != 0);
       return;
     }
-    size--;
   }
 }
 char *kmalloc_rexfs_path(struct dentry *dentry)
